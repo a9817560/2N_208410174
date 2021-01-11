@@ -1,0 +1,17 @@
+{
+  "name": "crown_xx",
+  "version": "1.0.0",
+  "description": "Crown_xx demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/bin/www",
+    "server": "nodemon backend/bin/www",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server \" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
